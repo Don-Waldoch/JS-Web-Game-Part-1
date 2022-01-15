@@ -38,8 +38,8 @@ let tree      = newImage('assets/tree.png',            200, 300)
 let pillar    = newImage('assets/pillar.png',          350, 100)
 let crate     = newImage('assets/crate.png',           150, 200)
 let well      = newImage('assets/well.png',            500, 425)
-let sword     = newImage('assets/sword.png',           500, 405)
 
 //Add items the user can pick up
+let sword  = newItem('assets/sword.png',  500, 405)
 let shield = newItem('assets/sheild.png', 165, 185)
 let staff  = newItem('assets/staff.png',  600, 100)
